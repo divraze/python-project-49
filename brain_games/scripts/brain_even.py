@@ -32,3 +32,5 @@ def play_even_game():
             break
     if i == 3:
         print(f'Congratulations, {name}!')
+
+play_even_game()
