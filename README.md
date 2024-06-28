@@ -4,3 +4,6 @@
 
 <h>Game 1: Is That Even?</h>
 <a href="https://asciinema.org/a/XCfZChqH0W6Rvq1K5w7CttmKN" target="_blank"><img src="https://asciinema.org/a/XCfZChqH0W6Rvq1K5w7CttmKN.svg" /></a>
+
+<h>Game 2: Calculator</h>
+<a href="https://asciinema.org/a/fScV50Z3ptPekMOq1e6q0KVla" target="_blank"><img src="https://asciinema.org/a/fScV50Z3ptPekMOq1e6q0KVla.svg" /></a>
