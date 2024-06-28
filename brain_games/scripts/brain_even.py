@@ -33,4 +33,9 @@ def play_even_game():
     if i == 3:
         print(f'Congratulations, {name}!')
 
-play_even_game()
+def main():
+    play_even_game()
+
+
+if __name__ == '__main__':
+    main()
