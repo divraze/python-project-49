@@ -9,4 +9,4 @@
 <a href="https://asciinema.org/a/fScV50Z3ptPekMOq1e6q0KVla" target="_blank"><img src="https://asciinema.org/a/fScV50Z3ptPekMOq1e6q0KVla.svg" /></a>
 
 <h>Game 3: Greatest common divisor</h>
-[![asciicast](https://asciinema.org/a/e1tKaX6bk6taW9yjonZKYAY7R.svg)](https://asciinema.org/a/e1tKaX6bk6taW9yjonZKYAY7R)
+<a href="https://asciinema.org/a/e1tKaX6bk6taW9yjonZKYAY7R" target="_blank"><img src="https://asciinema.org/a/e1tKaX6bk6taW9yjonZKYAY7R.svg" /></a>
