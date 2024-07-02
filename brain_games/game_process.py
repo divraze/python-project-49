@@ -4,8 +4,8 @@ import prompt
 def game_process(question_answer, manual):
     name = prompt.string('Welcome to the Brain Games!\nMay I have your name? ')
 
-    print(f'Hello, {name}!')
-    print(f'{manual}')
+    print(f'Hello, {name}!\n'
+          f'{manual}')
 
     i = 0
 
