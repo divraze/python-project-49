@@ -10,19 +10,20 @@
 4. Progression
 5. Is that Prime?
 
-## To win, you need to give 3 correct answers! If you've made a mistake, start the game again.
+### To win, you need to give 3 correct answers! If you've made a mistake, start the game again.
 
 
-## Minimum requirements:
+### Minimum requirements:
 1. python = "^3.10"
 2. prompt = "^0.4.1"
 3. flake8 = "^7.1.0"
 
 
-## Installing the program  --->  pip install brain_games
+### Installing the program:
+pip install brain_games
 
 
-## To start the game, run the command:
+### To start the game, run the command:
 1. Is that Even? ---> brain-even
 2. Calculator ---> brain-calc
 3. Greatest common divisor ---> brain-gcd
