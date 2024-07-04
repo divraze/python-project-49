@@ -1,6 +1,6 @@
 #!usr/bin/env python3
 
-from game_engine import run_game
+from brain_games.game_engine import run_game
 from brain_games.games.gcd import get_gcd
 from brain_games.games.gcd import MANUAL
 
