@@ -1,20 +1,17 @@
 import random
-from brain_games.game_process import game_process
 
 
-manual = 'Answer "yes" if the number is even, otherwise answer "no".'
+MANUAL = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def even_game_logic():
+def is_even(a):
 
+    if a % 2 == 0:
+        return 'yes'
+    return 'no'
+
+
+def get_even():
     number = random.randint(1, 100)
-
-    if number % 2 == 0:
-        answer = 'yes'
-    elif number % 2 != 0:
-        answer = 'no'
+    answer = is_even(number)
     return number, answer
-
-
-def play_even_game():
-    game_process(even_game_logic, manual)

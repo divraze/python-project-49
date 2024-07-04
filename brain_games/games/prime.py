@@ -1,21 +1,21 @@
 import random
-from brain_games.game_process import game_process
 
 
-manual = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+MANUAL = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def is_prime():
+def is_prime(a):
 
-    n = random.randrange(1, 101)
-
-    if n <= 1:
-        return n, 'no'
-    for i in range(2, int(n ** 0.5) + 1):
-        if n % i == 0:
-            return n, 'no'
-    return n, 'yes'
+    if a <= 1:
+        return 'no'
+    for i in range(2, int(a ** 0.5) + 1):
+        if a % i == 0:
+            return 'no'
+    return 'yes'
 
 
-def play_prime_game():
-    game_process(is_prime, manual)
+def get_prime():
+
+    num = random.randrange(1, 101)
+    answer = is_prime(num)
+    return num, answer

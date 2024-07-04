@@ -1,11 +1,10 @@
 import random
-from brain_games.game_process import game_process
 
 
-manual = 'What number is missing in the progression?'
+MANUAL = 'What number is missing in the progression?'
 
 
-def progression_game_logic():
+def get_progression():
 
     first_num = random.randrange(1, 100)
     step = random.randrange(1, 6)
@@ -15,9 +14,4 @@ def progression_game_logic():
     progression[index] = '..'
     str_progression = [str(i) for i in progression]
     progression_finish = ' '.join(str_progression)
-
     return progression_finish, hidden_index
-
-
-def play_progression_game():
-    game_process(progression_game_logic, manual)
