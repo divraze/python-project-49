@@ -1,7 +1,10 @@
 import prompt
 
 
-def game_process(question_answer, manual):
+ROUNDS = 3
+
+
+def run_game(question_answer, manual):
     name = prompt.string('Welcome to the Brain Games!\nMay I have your name? ')
 
     print(f'Hello, {name}!\n'
@@ -9,7 +12,7 @@ def game_process(question_answer, manual):
 
     i = 0
 
-    while i < 3:
+    while i < ROUNDS:
         question, answer = question_answer()
         user_answer = prompt.string(f'Question: {question}\nYour answer: ')
 
@@ -21,5 +24,5 @@ def game_process(question_answer, manual):
                 f"'{user_answer}' is wrong answer ;(."
                 f" Correct answer was '{answer}'.\nLet's try again, {name}!")
             break
-    if i == 3:
+    if i == ROUNDS:
         print(f'Congratulations, {name}!')
