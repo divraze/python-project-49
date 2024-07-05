@@ -1,8 +1,7 @@
 #!usr/bin/env python3
 
 from brain_games.game_engine import run_game
-from brain_games.games.even import get_even
-from brain_games.games.even import MANUAL
+from brain_games.games.even import get_even, MANUAL
 
 
 def main():
