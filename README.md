@@ -39,21 +39,21 @@
 
 
 
-### Game № 1: Is that Even?
+### Game № 1: "Is that Even?"
 [![asciicast](https://asciinema.org/a/YjNd0GvDfwjd4yz6vkOlOJKas.svg)](https://asciinema.org/a/YjNd0GvDfwjd4yz6vkOlOJKas)
 
 
-### Game № 2: Calculator
+### Game № 2: "Calculator"
 [![asciicast](https://asciinema.org/a/NrBpDOCXLJkDqqOJuj0zpa7O2.svg)](https://asciinema.org/a/NrBpDOCXLJkDqqOJuj0zpa7O2)
 
 
-### Game № 3: Greatest common divisor
+### Game № 3: "Greatest common divisor"
 [![asciicast](https://asciinema.org/a/feCDNKv79eboMoLJYduWH1Dnc.svg)](https://asciinema.org/a/feCDNKv79eboMoLJYduWH1Dnc)
 
 
-### Game № 4: Progression
+### Game № 4: "Progression"
 [![asciicast](https://asciinema.org/a/DdS7GOAchd5WbWnrqgwuQGamT.svg)](https://asciinema.org/a/DdS7GOAchd5WbWnrqgwuQGamT)
 
 
-### Game № 5: Is that Prime?
+### Game № 5: "Is that Prime?"
 [![asciicast](https://asciinema.org/a/ZsY7fdoYzLKEmXGebGcubm7R2.svg)](https://asciinema.org/a/ZsY7fdoYzLKEmXGebGcubm7R2)
