@@ -4,16 +4,16 @@ import random
 MANUAL = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def is_prime(a):
-    if a <= 1:
-        return 'no'
-    for i in range(2, int(a ** 0.5) + 1):
-        if a % i == 0:
-            return 'no'
-    return 'yes'
+def is_prime(number):
+    if number <= 1:
+        return False
+    for i in range(2, int(number ** 0.5) + 1):
+        if number % i == 0:
+            return False
+    return True
 
 
-def get_prime():
-    num = random.randrange(1, 101)
-    answer = is_prime(num)
-    return num, answer
+def get_question_and_answer():
+    question = random.randrange(1, 101)
+    answer = is_prime(question)
+    return question, 'yes' if answer else 'no'

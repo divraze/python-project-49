@@ -4,7 +4,7 @@ import prompt
 ROUNDS = 3
 
 
-def run_game(question_answer, manual):
+def run_game(get_question_and_answer, manual):
     name = prompt.string('Welcome to the Brain Games!\nMay I have your name? ')
 
     print(f'Hello, {name}!\n'
@@ -13,7 +13,7 @@ def run_game(question_answer, manual):
     i = 0
 
     while i < ROUNDS:
-        question, answer = question_answer()
+        question, answer = get_question_and_answer()
         user_answer = prompt.string(f'Question: {question}\nYour answer: ')
 
         if user_answer == str(answer):

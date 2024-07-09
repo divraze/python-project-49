@@ -4,20 +4,19 @@ import random
 MANUAL = 'Find the greatest common divisor of given numbers.'
 
 
-def has_gcd(a, b):
-    while a != 0 and b != 0:
-        if a > b:
-            a %= b
+def get_gcd(first_num, second_num):
+    while first_num != 0 and second_num != 0:
+        if first_num > second_num:
+            first_num %= second_num
         else:
-            b %= a
-    if a != 0:
-        return a
-    return b
+            second_num %= first_num
+    if first_num != 0:
+        return first_num
+    return second_num
 
 
-def get_gcd():
-    num_1 = random.randint(1, 10)
-    num_2 = random.randint(1, 10)
-    question = f'{num_1} {num_2}'
-    answer = has_gcd(num_1, num_2)
+def get_question_and_answer():
+    first_num, second_num = random.randint(1, 30), random.randint(1, 30)
+    question = f'{first_num} {second_num}'
+    answer = get_gcd(first_num, second_num)
     return question, answer
