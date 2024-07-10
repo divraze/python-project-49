@@ -2,14 +2,14 @@
 [![Actions Status](https://github.com/divraze/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/divraze/python-project-49/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/94a2f16935da188fe62c/maintainability)](https://codeclimate.com/github/divraze/python-project-49/maintainability)
 
-## **Welcome to the "Brain Games"! :smiley:**
+# **Welcome to the "Brain Games"! :smiley:**
 
 ### **The "Brain Games" project includes 5 logic games:**
-1. **"Is that Even?"** ----- *You have to determine whether it is even or not.*
-2. **"Calculator"** ----- *You have to calculate the mathematical expression*
-3. **"Greatest common divisor"** ----- *You have to determine the common divisor.*
-4. **"Progression"** ----- *You have to identify the missing number in a mathematical progression.*
-5. **"Is that Prime?"** ----- *You have to determine if the number is prime.*
+- **"Is that Even?"** *(you have to determine whether it is even or not.)*
+- **"Calculator"**  *(you have to calculate the mathematical expression)*
+- **"Greatest common divisor"**  *(you have to determine the common divisor.)*
+- **"Progression"**  *(you have to identify the missing number in a mathematical progression.)*
+- **"Is that Prime?"** *(you have to determine if the number is prime.)*
 
 #### :white_check_mark: **To win, you need to give 3 correct answers!**
 
@@ -17,15 +17,18 @@
 ___
 
 ### **The project uses the following tools:**
-1. **Python** - 3.10
-2. **Poetry** - 1.8.3
-3. **Prompt** - 0.4.1
-4. **Flake8** - 7.1.0
+
+Tool   | Version
+:----- |:-------:
+python | 3.10
+poetry | 1.8.3
+prompt | 0.4.1
+flake8 | 7.1.0
 ___
 
 
 ### **To install the program, follow the steps:**
-1. **Clone a repository** -----> git@github.com:divraze/python-project-49.git
+1. **Clone a repository** -----> `git@github.com:divraze/python-project-49.git`
 2. **Go to the project** -----> `cd python-project-49`
 3. **Assemble the package** -----> `make build`
 4. **Install the package** -----> `make package-install`
@@ -40,22 +43,21 @@ ___
 - **"Is that Prime?"** -----> `brain-prime`
 ___
 
-
-### **Game № 1: *"Is that Even?"***
+### ***"Is that Even?"***
 [![asciicast](https://asciinema.org/a/YjNd0GvDfwjd4yz6vkOlOJKas.svg)](https://asciinema.org/a/YjNd0GvDfwjd4yz6vkOlOJKas)
 
 
-### **Game № 2: *"Calculator"***
+### ***"Calculator"***
 [![asciicast](https://asciinema.org/a/NrBpDOCXLJkDqqOJuj0zpa7O2.svg)](https://asciinema.org/a/NrBpDOCXLJkDqqOJuj0zpa7O2)
 
 
-### **Game № 3: *"Greatest common divisor"***
+### ***"Greatest common divisor"***
 [![asciicast](https://asciinema.org/a/feCDNKv79eboMoLJYduWH1Dnc.svg)](https://asciinema.org/a/feCDNKv79eboMoLJYduWH1Dnc)
 
 
-### **Game № 4: *"Progression"***
+### ***"Progression"***
 [![asciicast](https://asciinema.org/a/DdS7GOAchd5WbWnrqgwuQGamT.svg)](https://asciinema.org/a/DdS7GOAchd5WbWnrqgwuQGamT)
 
 
-### **Game № 5: *"Is that Prime?"***
+### ***"Is that Prime?"***
 [![asciicast](https://asciinema.org/a/ZsY7fdoYzLKEmXGebGcubm7R2.svg)](https://asciinema.org/a/ZsY7fdoYzLKEmXGebGcubm7R2)
