@@ -10,5 +10,5 @@ def is_even(number):
 
 def get_question_and_answer():
     question = random.randint(1, 100)
-    answer = is_even(question)
-    return question, 'yes' if answer else 'no'
+    answer = 'yes' if is_even(question) else 'no'
+    return question, answer
