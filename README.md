@@ -5,11 +5,11 @@
 # **Welcome to the "Brain Games"! :smiley:**
 
 ### **The "Brain Games" project includes 5 logic games:**
-- **"Is that Even?"** *(you have to determine whether it is even or not.)*
-- **"Calculator"**  *(you have to calculate the mathematical expression)*
-- **"Greatest common divisor"**  *(you have to determine the common divisor.)*
-- **"Progression"**  *(you have to identify the missing number in a mathematical progression.)*
-- **"Is that Prime?"** *(you have to determine if the number is prime.)*
+- **"Is that Even?"** -----> *You have to determine whether it is even or not.*
+- **"Calculator"** -----> *You have to calculate the mathematical expression.*
+- **"Greatest common divisor"** -----> *You have to determine the common divisor.*
+- **"Progression"** -----> *You have to identify the missing number in a mathematical progression.*
+- **"Is that Prime?"** -----> *You have to determine if the number is prime.*
 
 #### :white_check_mark: **To win, you need to give 3 correct answers!**
 
