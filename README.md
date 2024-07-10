@@ -10,8 +10,8 @@
 3. **"Greatest common divisor"** ----- *You have to determine the common divisor.*
 4. **"Progression"** ----- *You have to identify the missing number in a mathematical progression.*
 5. **"Is that Prime?"** ----- *You have to determine if the number is prime.*
-___
-### **To win, you need to give 3 correct answers! If you've made a mistake, start the game again.**
+
+#### :white_check_mark: **To win, you need to give 3 correct answers! If you've made a mistake, start the game again!**
 ___
 
 ### **The project uses the following tools:**
@@ -19,16 +19,16 @@ ___
 2. **Poetry** - 1.8.3
 3. **Prompt** - 0.4.1
 4. **Flake8** - 7.1.0
-
 ___
+
 
 ### **To install the program, follow the steps:**
-1. **Clone a repository** :arrow_right: git@github.com:divraze/python-project-49.git
-2. **Go to the project** :arrow_right: `cd python-project-49`
-3. **Assemble the package** :arrow_right: `make build`
-4. **Install the package** :arrow_right: `make package-install`
+1. **Clone a repository** -----> git@github.com:divraze/python-project-49.git
+2. **Go to the project** -----> `cd python-project-49`
+3. **Assemble the package** -----> `make build`
+4. **Install the package** -----> `make package-install`
 
-___
+
 
 ### **To start the game, run the command:**
 - **"Is that Even?"** -----> `brain-even`
