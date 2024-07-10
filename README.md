@@ -11,7 +11,9 @@
 4. **"Progression"** ----- *You have to identify the missing number in a mathematical progression.*
 5. **"Is that Prime?"** ----- *You have to determine if the number is prime.*
 
-#### :white_check_mark: **To win, you need to give 3 correct answers! If you've made a mistake, start the game again!**
+#### :white_check_mark: **To win, you need to give 3 correct answers!**
+
+#### :x: **If you've made a mistake, start the game again!**
 ___
 
 ### **The project uses the following tools:**
