@@ -15,5 +15,5 @@ def is_prime(number):
 
 def get_question_and_answer():
     question = random.randrange(1, 101)
-    answer = is_prime(question)
-    return question, 'yes' if answer else 'no'
+    answer = 'yes' if is_prime(question) else 'no'
+    return question, answer
